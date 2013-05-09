@@ -1,0 +1,28 @@
+/* 
+    Document   : BaseStyle
+    Created on : Apr 8, 2013, 11:39:35 AM
+    Author     : grossco
+    Description:
+        Set the display properties of the preloader panel.
+*/
+
+/* Define root style */
+.root{
+    -fx-border-color: black;
+    -fx-border-width: 6;
+    -fx-padding: 4 4 4 4;
+}
+
+/* Apply style to nodes with style class base-panel.*/
+.base-pane{
+    /* Green background */
+    -fx-background-color: linear-gradient(to bottom right, #00ff00, #29813c);
+    -fx-background-position: center center;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 15, 0.0 , 0 , 1 );
+    /* Define border */
+    
+}
+
+.label{
+    -fx-text-fill: floralwhite;
+}
